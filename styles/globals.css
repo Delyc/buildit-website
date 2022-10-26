@@ -1,0 +1,381 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient2{
+    background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+}
+
+.gradient1{
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%)
+}
+.development__grid{
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+}
+
+@layer base {
+    h1 {
+      @apply text-[64px] leading-[72px];
+    }
+    h2 {
+      @apply text-[36px] leading-[48px] ;
+    }
+    h3{
+        @apply text-[24px] leading-[44px]
+    }
+
+    h4{
+        @apply text-[22px] leading-[36px]
+    }
+    
+  
+  
+    p {
+      @apply text-base leading-8 ;
+    }
+  }
+
+.footer{
+    @apply bg-[#486A6F] w-full  text-white flex justify-center py-24
+}
+
+.footer__wrapper{
+    @apply w-5/6 flex justify-between
+}
+
+.footer__grouped{
+    @apply flex flex-col justify-between
+}
+
+.footer__links{
+    @apply flex flex-col 
+}
+
+.footer__links-link{
+    @apply text-footer-white font-medium
+}
+
+.footer__socials{
+    @apply flex gap-5 mt-3
+}
+
+.footer__socials-icon{
+    @apply bg-[#4397A4] w-10 h-10 flex justify-center items-center rounded-md
+}
+
+.contact__wrapper, .socials__wrapper, .development__wrapper{
+    @apply footer__wrapper
+}
+.contact, .development{
+    @apply flex flex-col items-center justify-center py-24 gap-5
+}
+.contact__wrapper-header{
+    @apply text-blued-green font-medium
+}
+.contact__wrapper-intouch{
+    @apply text-bold-text-green font-bold 
+}
+
+.contact__wrapper-contacting{
+    @apply flex flex-col gap-4 justify-between
+}
+.contact__wrapper-onecontact{
+    @apply flex items-center gap-5
+}
+.contact__wrapper-icon-container{
+    @apply bg-white-green w-10 h-10 flex justify-center items-center rounded-md
+}
+.contact__phone{
+    @apply flex flex-col gap-0
+
+}
+.contact__phone-text{
+    @apply text-bold-text-green font-medium
+}
+.contact__phone-nbr{
+    @apply text-bold-text-green font-bold mt-0 text-xl
+}
+.contact__wrapper-form-section{
+    @apply bg-white-green px-10 py-10
+}
+.contact__wrapper-form{
+    @apply flex flex-col gap-3 
+}
+.contact__wrapper-input{
+    @apply  border border-bold-text-green rounded-small-rounded h-8
+}
+.contact__wrapper-combined-input{
+    @apply flex justify-between gap-3
+}
+.contact__wrapper-one-input{
+    @apply flex flex-col gap-2
+}
+
+.contact__wrapper-textarea{
+    @apply contact__wrapper-input 
+}
+
+.contact__wrapper-textarea--height{
+    @apply  h-24
+}
+
+.contact__wrapper-btn{
+    @apply bg-bold-text-green text-white rounded-sized-rounded flex justify-center items-center py-[15px] px-[55px]
+}
+.contact__wrapper-label{
+    @apply text-sm font-normal text-bold-text-green
+}
+
+.socials, .team{
+    @apply flex justify-center py-24 bg-white-green
+}
+
+.socials__gallery, .team__gallery{
+    @apply grid grid-cols-3 gap-4 w-5/6  mt-10
+}
+.socials__gallery-image{
+    @apply object-cover 
+}
+
+.social__wrapper--align, .team__wrapper--align{
+    @apply  flex flex-col justify-center items-center  
+}
+
+.socials__wrapper-head, .team__wrapper-head{
+    @apply contact__wrapper-header
+}
+.socials__wrapper-meet, .team__wrapper-meet{
+    @apply contact__wrapper-intouch
+}
+
+.innovation{
+    @apply contact 
+}
+.innovation__heading{
+    @apply text-bold-text-green font-bold
+}
+
+.innovation__wrapper{
+    @apply contact__wrapper flex-col justify-center items-center 
+}
+
+.innovation__list{
+    @apply  flex justify-center  gap-5 mt-20
+}
+.test{
+    @apply  flex justify-between  gap-5 mt-20 w-5/6 
+}
+
+.innovation__single-icon, .development__group-icon{
+    @apply footer__socials-icon
+}
+
+.innovation__single{
+    @apply  basis-72 flex flex-col gap-2 
+}
+
+.innovation__name{
+    @apply text-bold-text-green font-bold 
+}
+.innovation__description{
+    @apply text-bold-text-green font-medium
+}
+
+.investors{
+    @apply innovation bg-white-green
+}
+.investors__wrapper{
+    @apply innovation__wrapper
+}
+.logo-line{
+    @apply h-[1px] bg-light-green w-full my-5
+}
+.logos{
+    @apply  flex gap-8
+}
+.investors__content{
+    @apply flex justify-between gap-5 w-5/6 items-center
+}
+.investors__content-image{
+    @apply w-2/5 
+}
+.investors__content-img{
+    @apply w-full object-fill h-full
+}
+
+.investors__content-description{
+    @apply w-1/2 flex flex-col gap-4
+}
+
+.investors__content-about{
+    @apply contact__wrapper-header
+}
+
+.investors__content-heading{
+    @apply text-bold-text-green font-bold
+}
+
+.investors__content-paragraph{
+    @apply text-light-green font-medium
+}
+.investors__content-btn{
+    @apply bg-light-green text-white w-[200px] h-[52px] rounded-sized-rounded mt-5
+}
+
+.properties{
+    @apply flex justify-center py-10
+}
+
+.team__gallery-member{
+
+}
+
+.team__member-details{
+    @apply flex flex-col w-full  py-1 px-6  rounded-sized-rounded
+}
+.team__member-name{
+    @apply text-bold-text-green font-bold
+}
+
+.team__member-surname{
+    @apply text-bold-text-green font-medium
+}
+
+.team__gallery-member{
+    background: linear-gradient(88.65deg, #C6DBFF 0%, #E1EBFA 100%);
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+
+
+.development__grid{
+    @apply grid grid-cols-3 divide-x divide-bold-text-green w-4/5 py-5
+}
+
+.develpment__group {
+    @apply flex gap-4 items-center justify-center 
+}
+.development__values-nbr{
+    @apply text-bold-text-green font-bold
+}
+
+.development__text{
+    @apply text-bold-text-green font-medium
+}
+
+.development__wrapper--align{
+    @apply flex-col   items-center mt-20
+}
+
+.development__paragraph{
+    @apply text-blued-green font-medium
+}
+.development__heading{
+    @apply text-bold-text-green font-bold
+}
+
+.call{
+    @apply contact
+}
+
+.call__wrapper{
+    @apply footer__wrapper flex-col
+}
+.call__methods{
+    @apply flex justify-between
+}
+.call__method-text{
+    @apply text-bold-text-green font-bold
+}
+
+.call__buttons{
+    @apply flex gap-4
+}
+
+.call__contact{
+    @apply bg-bold-text-green text-white px-[55px] py-[15px] rounded-small-rounded
+}
+
+.call__mail{
+    @apply bg-white-green px-[55px] py-[15px] rounded-small-rounded text-bold-text-green font-bold
+}
+
+.header{
+    @apply flex flex-col justify-center w-full items-center pt-10 z-10
+}
+
+.navigation{
+    @apply w-full flex justify-between items-center 
+}
+.navigation__company{
+    @apply flex items-center gap-2
+}
+
+.navigation__list{
+    @apply flex gap-16 
+}
+
+.navigation__list-item{
+    @apply text-base text-bold-text-green font-medium
+}
+
+.navigation__company-logo{
+    @apply bg-bold-text-green h-[50px] w-[50px] rounded-full
+}
+.navigation__company-name{
+    @apply text-bold-text-green font-bold
+}
+
+.navigation__btn{
+    @apply px-[25px] py-[10px] rounded-sized-rounded text-footer-white
+}
+
+.hero-section{
+    @apply flex w-full  relative flex-col items-center
+}
+
+.hero-section__wrapper{
+    @apply  flex flex-col  w-5/6 
+}
+
+.hero-section__bg-image{
+    @apply absolute top-0 right-0 bottom-0 h-full 
+}
+.hero-section__info{
+    @apply basis-60  flex flex-col justify-between h-96  z-10
+}
+
+.hero-section__info-texts{
+    @apply flex flex-col gap-5
+}
+.hero-section__info-heading{
+    @apply text-bold-text-green font-bold
+}
+
+.hero-section__info-description{
+    @apply text-bold-text-green font-medium
+}
+
+.hero-section__info-btn{
+    @apply flex gap-4
+}
+
+.hero-section__info-services{
+    @apply h-[61px] w-[118px] text-center bg-bold-text-green text-footer-white rounded-sized-rounded
+}
+.hero-section__info-about{
+    @apply h-[61px] w-[257px] bg-btn-white text-bold-text-green font-medium
+}
+
+.hero-section__gallery{
+    @apply z-10
+}
+
+.hero-section__gallery-image{
+    @apply object-cover ml-auto
+}
+
+.header{
+    @apply z-10
+}
