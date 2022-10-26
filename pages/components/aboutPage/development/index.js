@@ -1,18 +1,18 @@
 import Image from 'next/image'
-import twoh from '../../../public/icons/200.png'
-import sev from '../../../public/icons/70.png'
-import tew from '../../../public/icons/20.png'
-import Logos from '../logos'
+import twoh from '../../../../public/icons/200.png'
+import sev from '../../../../public/icons/70.png'
+import tew from '../../../../public/icons/20.png'
+import Logos from '../../logos'
 
 function Development(){
     return (
         <>
-        <section class="development  ">
+        <section className="development  ">
             <p className='development__paragraph'>Statistics</p>
             <h2 className='development__heading'>Development in numbers</h2>
             <div className="development__wrapper development__wrapper--align">
                 
-        <div class="development__grid ">
+        <div className="development__grid ">
   <div className="develpment__group ">
     <div className="development__group-icon">
         <Image src={twoh} width="20px" height="23px"/>

@@ -1,10 +1,10 @@
-import house3 from "../../../public/icons/house3.jpg";
+import house3 from "../../../../public/icons/house3.jpg";
 
 function Properties (){
     return (
         <>
         <section className="properties">
-        <div className="flex justify-between items-center pb-24 gap-10 w-full w-5/6">
+        <div className="flex justify-between items-center pb-24 gap-10  w-5/6">
           <div className="flex flex-col w-2/5">
             <div className="hero-section__info-texts">
                 <p className="text-blued-green font-medium">Available Properties</p>

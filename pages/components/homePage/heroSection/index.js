@@ -1,10 +1,8 @@
-// import house1 from '../../../public/icons/house1.jpeg'
-import house2 from "../../../public/icons/house2.jpg";
-import house3 from "../../../public/icons/house3.jpg";
-// import house4 from '../../../public/icons/house4.jpg'
-import house5 from "../../../public/icons/house5.jpg";
-import herobg from "../../../public/icons/herobg.png";
-import Header from "../header";
+
+
+import house3 from "../../../../public/icons/house3.jpg";
+import herobg from "../../../../public/icons/herobg.png";
+import Header from "../../header";
 
 function HeroSection() {
   return (

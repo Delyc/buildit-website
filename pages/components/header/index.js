@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "../../../public/icons/logo.png";
-import HeroSection from "../heroSection";
+import HeroSection from '../homePage/heroSection'
 import Link from 'next/link'
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
         <nav className="navigation">
           <div className="navigation__company">
             <div className="navigation__company-logo"></div>
-            <h3 className="navigation__company-name">Buildit</h3>
+            <h3 className="navigation__company-name"><Link href='/'>Buildit</Link> </h3>
           </div>
 
           <ul className="navigation__list">
