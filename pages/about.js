@@ -1,13 +1,9 @@
-
-
-import AboutPage from './components/aboutPage'
+import AboutPage from "../components/aboutPage";
 
 export default function Home() {
   return (
     <>
-    <AboutPage />
-     
-    
+      <AboutPage />
     </>
-  )
+  );
 }

@@ -7,6 +7,7 @@ import Contact from "./contact"
 import Footer from '../footer'
 
 
+
 function HomePage (){
     return (
         <>

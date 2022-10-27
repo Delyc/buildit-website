@@ -1,5 +1,6 @@
-import fb from '../../../public/icons/fb.png'
-import insta from '../../../public/icons/insta.png'
+import fb from '../../public/icons/fb.png'
+import insta from '../../public/icons/insta.png'
+
 import Image from 'next/image'
 function Footer(){
     return <>

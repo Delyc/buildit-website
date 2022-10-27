@@ -1,10 +1,11 @@
 import Image from 'next/image'
 
-import logo1 from '../../public/icons/logo1.png'
-import logo2 from '../../public/icons/logo2.png'
-import logo3 from '../../public/icons/logo3.png'
-import logo4 from '../../public/icons/logo4.png'
-import logo5 from '../../public/icons/logo5.png'
+import logo1 from '../public/icons/logo1.png'
+import logo2 from '../public/icons/logo2.png'
+import logo3 from '../public/icons/logo3.png'
+import logo4 from '../public/icons/logo4.png'
+import logo5 from '../public/icons/logo5.png'
+
 
 function Logos(){
     return (

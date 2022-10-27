@@ -1,8 +1,9 @@
 
 
-import house3 from "../../../../public/icons/house3.jpg";
-import herobg from "../../../../public/icons/herobg.png";
-import Header from "../../header";
+import house3 from "../../public/icons/house3.jpg";
+import herobg from "../../public/icons/herobg.png";
+import Header from "../header";
+
 
 function HeroSection() {
   return (

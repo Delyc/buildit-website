@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import build from '../../../../public/icons/build.png'
-import Logos from '../../logos'
+import build from '../../public/icons/build.png'
+import Logos from '../logos'
 
 function Investors(){
     return (

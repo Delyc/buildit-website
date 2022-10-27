@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import image1 from '../../../../public/icons/image1.png'
-import image2 from '../../../../public/icons/image2.png'
-import image3 from '../../../../public/icons/image3.png'
-import image4 from '../../../../public/icons/image4.png'
-import image5 from '../../../../public/icons/image5.png'
-import image6 from '../../../../public/icons/image6.png'
+import image1 from '../../public/icons/image1.png'
+import image2 from '../../public/icons/image2.png'
+import image3 from '../../public/icons/image3.png'
+import image4 from '../../public/icons/image4.png'
+import image5 from '../../public/icons/image5.png'
+import image6 from '../../public/icons/image6.png'
 function Socials(){
     return (
         <>

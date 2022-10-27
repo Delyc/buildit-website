@@ -1,5 +1,6 @@
-import call from '../../../../public/icons/call.png'
-import email from '../../../../public/icons/email.png'
+import call from '../../public/icons/call.png'
+import email from '../../public/icons/email.png'
+
 import Image from 'next/image'
 function Contact(){
     return (

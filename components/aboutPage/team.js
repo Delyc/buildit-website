@@ -1,13 +1,14 @@
 import Image from 'next/image'
-import staff1 from '../../../../public/icons/staff1.png'
-import staff2 from '../../../../public/icons/staff2.png'
-import staff3 from '../../../../public/icons/staff3.png'
-import staff4 from '../../../../public/icons/staff4.png'
-import staff5 from '../../../../public/icons/staff5.png'
-import staff6 from '../../../../public/icons/staff6.png'
-import staff7 from '../../../../public/icons/staff7.png'
-import staff8 from '../../../../public/icons/staff8.png'
-import staff9 from '../../../../public/icons/staff9.png'
+import staff1 from '../../public/icons/staff1.png'
+import staff2 from '../../public/icons/staff2.png'
+import staff3 from '../../public/icons/staff3.png'
+import staff4 from '../../public/icons/staff4.png'
+import staff5 from '../../public/icons/staff5.png'
+import staff6 from '../../public/icons/staff6.png'
+import staff7 from '../../public/icons/staff7.png'
+import staff8 from '../../public/icons/staff8.png'
+import staff9 from '../../public/icons/staff9.png'
+
 
 
 

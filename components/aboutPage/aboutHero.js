@@ -1,5 +1,6 @@
-import house3 from "../../../../public/icons/house3.jpg";
-import Header from '../../header'
+
+import house3 from '../../public/icons/house3.jpg'
+import Header from '../header'
 function AboutHero() {
   return (
     <>

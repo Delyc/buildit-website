@@ -1,6 +1,4 @@
-import Image from "next/image";
-import logo from "../../../public/icons/logo.png";
-import HeroSection from '../homePage/heroSection'
+
 import Link from 'next/link'
 function Header() {
   return (

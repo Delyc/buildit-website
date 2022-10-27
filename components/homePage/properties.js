@@ -1,4 +1,4 @@
-import house3 from "../../../../public/icons/house3.jpg";
+import house3 from "../../public/icons/house3.jpg";
 
 function Properties (){
     return (

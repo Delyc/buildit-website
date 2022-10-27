@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import listing from '../../../../public/icons/listing.png'
+import listing from '../../public/icons/listing.png'
 function Innovation(){
     return (
         <>
