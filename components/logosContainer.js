@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import logo1 from '../public/icons/logo1.png'
 import logo2 from '../public/icons/logo2.png'
 import logo3 from '../public/icons/logo3.png'
@@ -10,7 +9,7 @@ import logo5 from '../public/icons/logo5.png'
 function Logos(){
     return (
         <>
-                             <div className='logo-line'></div>
+                             <div className='logo-line' />
                 <div className='logos'>
                     <Image width="25px"   height="10x" src={logo1} />
                     <Image width="65px"   height="35px" src={logo2} />
@@ -20,7 +19,7 @@ function Logos(){
 
                 </div>
 
-                <div className='logo-line'></div>
+                <div className='logo-line' />
 
                
         </>

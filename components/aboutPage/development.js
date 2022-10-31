@@ -2,7 +2,7 @@ import Image from 'next/image'
 import twoh from '../../public/icons/200.png'
 import sev from '../../public/icons/70.png'
 import tew from '../../public/icons/20.png'
-import Logos from '../logos'
+import Logos from '../logosContainer'
 
 function Development(){
     return (
