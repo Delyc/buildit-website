@@ -23,13 +23,13 @@ function Team (){
             
       
 
-            <div className='socials__wrapper  social__wrapper--align team__wrapper  team__wrapper--align'>
+            <div className='Social__wrapper  social__wrapper--align team__wrapper  team__wrapper--align'>
                      <p className='team__wrapper-head'>Our team</p>
                      <h2 className='team__wrapper-meet'>Let’s meet</h2>
 
                 <div className='team__gallery'>
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff1} />
+                    <Image className='Social__gallery-image' src={staff1} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -37,16 +37,7 @@ function Team (){
 
                     </div>
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff2} />
-                    <div className='team__member-details'>
-                        <p className='team__member-name'>Name Surname</p>
-                        <p className='team__member-surname'>Name Surname</p>
-                    </div>
-
-                    </div>
-
-                    <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff3} />
+                    <Image className='Social__gallery-image' src={staff2} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -55,7 +46,7 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff4} />
+                    <Image className='Social__gallery-image' src={staff3} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -64,7 +55,7 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff5} />
+                    <Image className='Social__gallery-image' src={staff4} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -73,7 +64,7 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff6} />
+                    <Image className='Social__gallery-image' src={staff5} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -82,7 +73,7 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff7} />
+                    <Image className='Social__gallery-image' src={staff6} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -91,7 +82,7 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff8} />
+                    <Image className='Social__gallery-image' src={staff7} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>
@@ -100,7 +91,16 @@ function Team (){
                     </div>
 
                     <div className='team__gallery-member'>
-                    <Image className='socials__gallery-image' src={staff9} />
+                    <Image className='Social__gallery-image' src={staff8} />
+                    <div className='team__member-details'>
+                        <p className='team__member-name'>Name Surname</p>
+                        <p className='team__member-surname'>Name Surname</p>
+                    </div>
+
+                    </div>
+
+                    <div className='team__gallery-member'>
+                    <Image className='Social__gallery-image' src={staff9} />
                     <div className='team__member-details'>
                         <p className='team__member-name'>Name Surname</p>
                         <p className='team__member-surname'>Name Surname</p>

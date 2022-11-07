@@ -6,7 +6,7 @@ import logo4 from '../public/icons/logo4.png'
 import logo5 from '../public/icons/logo5.png'
 
 
-function Logos(){
+function LogosContainer(){
     return (
         <>
                              <div className='logo-line' />
@@ -26,4 +26,4 @@ function Logos(){
     )
 }
 
-export default Logos
+export default LogosContainer

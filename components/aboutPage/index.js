@@ -1,6 +1,6 @@
 import AboutHero from "./aboutHero"
 import Development from "./development"
-import Team from "./team"
+import Team from "./Team"
 import Call from "./call"
 import Footer from "../footer"
 function AboutPage(){
